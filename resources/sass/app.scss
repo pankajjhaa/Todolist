@@ -1,0 +1,37 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    width: 100vw;
+    height: 100vh;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e4f5fc+0,bfe8f9+50,9fd8ef+51,2ab0ed+100;Blue+Gloss+%235 */
+    background: #e4f5fc; /* Old browsers */
+    background: -moz-linear-gradient(
+        top,
+        hsl(198, 80%, 94%) 0%,
+        hsl(198, 83%, 86%) 50%,
+        hsl(197, 71%, 78%) 51%,
+        hsl(199, 84%, 55%) 100%
+    ); /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+        top,
+        hsl(198, 80%, 94%) 0%,
+        hsl(198, 83%, 86%) 50%,
+        hsl(197, 71%, 78%) 51%,
+        hsl(199, 84%, 55%) 100%
+    ); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+        to bottom,
+        hsl(198, 80%, 94%) 0%,
+        hsl(198, 83%, 86%) 50%,
+        hsl(197, 71%, 78%) 51%,
+        hsl(199, 84%, 55%) 100%
+    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=0 ); /* IE6-9 */
+}
