@@ -9,7 +9,10 @@
 
 ## Clone Github repo for this project locally
 
-> git@github.com:pk841442/Todolist.git
+```
+https://github.com/pk841442/Todolist.git
+
+```
 
 
 ## License
