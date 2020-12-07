@@ -41,7 +41,7 @@ Create an empty database for your project using the database tools you prefer.
 
 ### In the .env file, add database information to allow Laravel to connect to the database
 
-In the .env file fill in the - DB_HOST, - DB_PORT, - DB_DATABASE, - DB_USERNAME, and - DB_PASSWORD options to match the credentials of the database you just created. This will allow us to run migrations and seed the database in the next step.
+In the .env file fill in the diff - DB_HOST, diff - DB_PORT, diff - DB_DATABASE, diff - DB_USERNAME, and diff - DB_PASSWORD options to match the credentials of the database you just created. This will allow us to run migrations and seed the database in the next step.
 
 ### Run the database migrations (Set the database connection in .env before migrating)
 ```
